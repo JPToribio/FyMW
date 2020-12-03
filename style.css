@@ -1,3 +1,58 @@
 body {
     background-color: black;
+    font-family: Arial, Helvetica, serif;
+    font-size: 16px;
+    color: azure;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.links > li, .icons > li {
+text-decoration: none;
+text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    line-height: 2;
+}
+
+.posts article, footer > section:first-child  {
+border-style: dotted;
+border-width: 2px;
+border-color: #CCCCCC;
+}
+
+form input[type=text]:hover, form textarea[name=message]:hover {
+    background-color: green;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#nav li {
+    float: right;
+    padding: 10px;
+}
+
+.posts {
+    display: inline;
+}
+
+.posts article {
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+form {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
 }
